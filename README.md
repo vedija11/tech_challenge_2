@@ -20,7 +20,6 @@ Fork this repo and share the link when you are finished!
   - A landing page.
   - A page renders a table displaying a list songs coming from the API.
     - On mount of the this page, make a request to your API, fetching the songs and display the results in a table.
-    - Try not to use HTML table tags.
     - Feel free to use whatever attributes you'd like (artist, song name, label, etc.)
   - Use React Router to allow the user to change the page they are viewing.
 
