@@ -68,275 +68,278 @@ const SongsList = () => {
 
   return (
     <div className="song-header">
-      <p>Welcome to iHeart Songs Dashboard</p>
+      <h2>Welcome to iHeart Songs Dashboard</h2>
       <button
         onClick={() => {
           handleClick();
         }}
+        className="fetch-button"
       >
         Back to Home page
       </button>
+      <div className="box">
       <div className="flex-row">
         <div className="flex-col">
-          <p
+          <button
             onClick={() => {
               clickColHeader("song");
             }}
             className={getClassNamesFor("song")}
           >
-            Song
-          </p>
+            Song Name
+          </button>
           {items.map((item) => {
             return <p>{item.song}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("artist");
             }}
             className={getClassNamesFor("artist")}
           >
             Artists
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.artist}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("songReleaseDate");
             }}
             className={getClassNamesFor("songReleaseDate")}
           >
-            Song Release Date
-          </p>
+            Release Date
+          </button>
           {items.map((item) => {
             return <p>{item.songReleaseDate}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("playCount");
             }}
             className={getClassNamesFor("playCount")}
           >
             Play Count
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.playCount}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricA");
             }}
             className={getClassNamesFor("metricA")}
           >
             Metric A
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricA}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricB");
             }}
             className={getClassNamesFor("metricB")}
           >
             Metric B
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricB}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricC");
             }}
             className={getClassNamesFor("metricC")}
           >
             Metric C
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricC}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricD");
             }}
             className={getClassNamesFor("metricD")}
           >
             Metric D
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricD}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricE");
             }}
             className={getClassNamesFor("metricE")}
           >
             Metric E
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricE}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricF");
             }}
             className={getClassNamesFor("metricF")}
           >
             Metric F
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricF}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricG");
             }}
             className={getClassNamesFor("metricG")}
           >
             Metric G
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricG}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricH");
             }}
             className={getClassNamesFor("metricH")}
           >
             Metric H
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricH}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricI");
             }}
             className={getClassNamesFor("metricI")}
           >
             Metric I
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricI}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricJ");
             }}
             className={getClassNamesFor("metricJ")}
           >
             Metric J
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricJ}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricK");
             }}
             className={getClassNamesFor("metricK")}
           >
             Metric K
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricK}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricL");
             }}
             className={getClassNamesFor("metricL")}
           >
             Metric L
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricL}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricM");
             }}
             className={getClassNamesFor("metricM")}
           >
             Metric M
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricM}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricN");
             }}
             className={getClassNamesFor("metricN")}
           >
             Metric N
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricN}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricO");
             }}
             className={getClassNamesFor("metricO")}
           >
             Metric O
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricO}</p>;
           })}
         </div>
-        <div className="col">
-          <p
+        <div className="flex-col">
+          <button
             onClick={() => {
               clickColHeader("metricP");
             }}
             className={getClassNamesFor("metricP")}
           >
             Metric P
-          </p>
+          </button>
           {items.map((item) => {
             return <p>{item.metricP}</p>;
           })}
         </div>
+      </div>
       </div>
     </div>
   );

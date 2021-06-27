@@ -1,30 +1,35 @@
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .song-header {
-    text-align: center;
-    background-color: #282c34;
-    align-items: center;
-    font-size: calc(10px + 2vmin);
-    color: rgb(194, 178, 178);
-    overflow-x: scroll;
+  text-align: center;
+  background-color: #282c34;
+  align-items: center;
+  font-size: calc(2px + 2vmin);
+  color: white;
+  overflow-x: scroll;
 }
 
-p.ascending::after {
-    content: "🔽";
-    display: inline-block;
-    margin-left: 1em;
-  }
-  
- p.descending::after {
-    content: "🔼";
-    display: inline-block;
-    margin-left: 1em;
-  }
+button.ascending::after {
+  content: "🔽";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+button.descending::after {
+  content: "🔼";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+button {
+    height: 40px;
+    margin-bottom: 5px;
+}
